@@ -22,6 +22,8 @@ Our research is organized into four areas — imaging methods for life science, 
 
 Quantitative phase imaging and holotomography that resolve the three-dimensional architecture of living cells without stains, dyes, or fixation — and that we are pushing toward thicker, more scattering specimens.
 
+*Established: label-free 3D refractive-index imaging of living cells. Building toward: greater depth, speed, and fidelity in thicker samples.*
+
 <figure style="margin: 1.5rem 0;">
   <img
     src="{{ '/assets/img/research/label-free-3d-imaging.svg' | relative_url }}"
@@ -34,8 +36,6 @@ Quantitative phase imaging and holotomography that resolve the three-dimensional
     a quantitative 3D map (right).
   </figcaption>
 </figure>
-
-*Established: label-free 3D refractive-index imaging of living cells. Building toward: greater depth, speed, and fidelity in thicker samples.*
 
 **What it is.** This is the lab's foundation: the optical and computational methods that let us measure how living matter bends light, and turn that measurement into quantitative three-dimensional structure. We develop quantitative phase imaging (QPI) and holotomography (HT) — and modalities that extend beyond them — by co-designing the interferometric hardware, the illumination scheme, and the reconstruction algorithm as a single system rather than treating imaging and inversion separately. Because the contrast comes from a sample's own refractive index, the same measurement yields a physically meaningful map — local dry mass, morphology, and dynamics — with no exogenous label to perturb the cell. Much of the lab's work in biology, medicine, and industry builds on the imaging methods developed here.
 
