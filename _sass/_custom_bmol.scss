@@ -1,0 +1,84 @@
+/*******************************************************************************
+ * BMOL custom layer — typography + dark-native polish.
+ * Loaded LAST in main.scss so it wins the cascade. Plain CSS only.
+ * Direction: ElevenLabs typography (light serif display + Inter body)
+ * over ClickHouse dark-native palette (defined in _themes.scss).
+ ******************************************************************************/
+
+:root {
+  --bmol-serif: "Newsreader", "Iowan Old Style", Palatino, Georgia, "Times New Roman", serif;
+  --bmol-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Body / running text = Inter, slightly loose tracking (ElevenLabs body) */
+body {
+  font-family: var(--bmol-sans);
+  letter-spacing: 0.01em;
+}
+
+/* Display headings = light editorial serif (Newsreader 300) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.page-title,
+.post .post-title,
+.card-title {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
+h1,
+.post-title {
+  letter-spacing: -0.03em;
+}
+
+/* Chrome / labels / data stay Inter */
+.navbar,
+.nav-link,
+.navbar-brand,
+footer,
+.caption,
+.publications .bibliography,
+.btn {
+  font-family: var(--bmol-sans);
+}
+
+/* Navbar wordmark reads as a mark, not a serif heading */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Electric-yellow text selection (the ClickHouse voltage) */
+::selection {
+  background: var(--global-theme-color);
+  color: #0a0a0a;
+}
+
+/* Dark-native: hide the light/dark toggle (single theme by choice) */
+#light-toggle,
+li.toggle-container {
+  display: none !important;
+}
+
+/* Links: keep yellow, underline on hover only, small offset */
+a {
+  text-underline-offset: 2px;
+}
+
+/* Primary / CTA buttons = ClickHouse yellow + black text */
+.btn-primary {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #0a0a0a;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+  color: #0a0a0a;
+}

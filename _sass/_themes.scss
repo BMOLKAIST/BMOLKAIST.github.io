@@ -1,0 +1,177 @@
+/*******************************************************************************
+ * Themes — BMOL local override (dark-native, ClickHouse palette).
+ * Structure mirrors al_folio_core _themes.scss; only color VALUES changed and
+ * the light (:root) palette is set to the same dark values so the site is
+ * dark-native regardless of the theme-setting toggle. Non-color rules preserved.
+ ******************************************************************************/
+@use "variables" as v;
+@use "sass:color";
+
+/* ClickHouse dark-native tokens */
+$c-canvas: #0a0a0a;
+$c-surface-card: #1a1a1a;
+$c-hairline: #2a2a2a;
+$c-ink: #e6e6e6;
+$c-body: #d0d0d0;
+$c-muted: #888888;
+$c-accent: #faff69;
+$c-accent-active: #e6eb52;
+$c-on-accent: #0a0a0a;
+
+@mixin bmol-dark {
+  color-scheme: dark;
+  --global-bg-color: #{$c-canvas};
+  --global-code-bg-color: #{$c-surface-card};
+  --global-text-color: #{$c-body};
+  --global-text-color-light: #{$c-muted};
+  --global-theme-color: #{$c-accent};
+  --global-hover-color: #{$c-accent-active};
+  --global-hover-text-color: #{$c-on-accent};
+  --global-footer-bg-color: #0d0d0d;
+  --global-footer-text-color: #{$c-muted};
+  --global-footer-link-color: #{$c-accent};
+  --global-distill-app-color: #{$c-muted};
+  --global-divider-color: #{$c-hairline};
+  --global-card-bg-color: #{$c-surface-card};
+  --global-highlight-color: #{$c-accent};
+  --global-back-to-top-bg-color: rgba(250, 255, 105, 0.92);
+  --global-back-to-top-text-color: #{$c-on-accent};
+  --global-newsletter-bg-color: #{$c-surface-card};
+  --global-newsletter-text-color: #{$c-ink};
+
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #12241c;
+  --global-tip-block-text: #beffe2;
+  --global-tip-block-title: #e2f5ec;
+  --global-warning-block: #faff69;
+  --global-warning-block-bg: #2a2a10;
+  --global-warning-block-text: #fff2af;
+  --global-warning-block-title: #fff8d8;
+  --global-danger-block: #ef4444;
+  --global-danger-block-bg: #2a0e0e;
+  --global-danger-block-text: #ffb9b9;
+  --global-danger-block-title: #ffe0e0;
+}
+
+:root {
+  @include bmol-dark;
+
+  #light-toggle-system {
+    display: inline-block;
+  }
+  #light-toggle-dark {
+    display: none;
+  }
+  #light-toggle-light {
+    display: none;
+  }
+
+  .only-light {
+    display: none;
+  }
+  .only-dark {
+    display: block;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: v.$back-to-top-bottom;
+    right: v.$back-to-top-right;
+    height: v.$back-to-top-height;
+    width: v.$back-to-top-width;
+    z-index: v.$back-to-top-z-index;
+  }
+}
+
+/* Any toggle state resolves to the same dark palette. */
+html[data-theme="dark"],
+html[data-theme="light"] {
+  @include bmol-dark;
+
+  .only-light {
+    display: none;
+  }
+  .only-dark {
+    display: block;
+  }
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+  #light-toggle-dark {
+    display: inline-block;
+  }
+  #light-toggle-light {
+    display: none;
+  }
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+  #light-toggle-dark {
+    display: none;
+  }
+  #light-toggle-light {
+    display: inline-block;
+  }
+}
+
+.fa-half-sun-moon {
+  position: relative;
+  display: inline-block;
+
+  --fa-font: var(--fa-font-solid);
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 1em;
+  height: 1em;
+}
+
+.fa-half-sun-moon::before,
+.fa-half-sun-moon::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -0.5px;
+  bottom: -0.5px;
+  text-align: center;
+  line-height: 1em;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font: var(--fa-font);
+}
+
+.fa-half-sun-moon::before {
+  content: "\f111";
+  color: var(--global-text-color);
+  clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
+}
+
+.fa-half-sun-moon::after {
+  content: "\f185";
+  color: var(--global-text-color);
+  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  right: -1.5px;
+  transform: translateX(-1px);
+}
+
+#light-toggle:hover .fa-half-sun-moon::before {
+  color: var(--global-theme-color);
+}
+
+#light-toggle:hover .fa-half-sun-moon::after {
+  color: var(--global-theme-color);
+}
