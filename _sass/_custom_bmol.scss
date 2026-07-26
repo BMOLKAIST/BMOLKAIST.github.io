@@ -370,3 +370,9 @@ a {
   }
 }
 
+/* Publications: year headers used --global-divider-color (near-invisible on the
+   dark canvas). Use the default text color so the year reads on black. */
+.publications h2.bibliography {
+  color: var(--global-text-color);
+}
+
