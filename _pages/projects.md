@@ -37,7 +37,9 @@ Quantitative phase imaging and holotomography that resolve the three-dimensional
 
 **Representative publications.**
 
-{% bibliography --query @*[key=lee2026incoherent || key=kim2024holotomography || key=oh2025extending] %}
+- J. Lee et al., "Incoherent dielectric tensor tomography for quantitative 3D measurement of biaxial anisotropy," *Nature Photonics* (2026).
+- G. Kim et al., "Holotomography," *Nature Reviews Methods Primers* (2024).
+- C. Oh et al., "Extending the Rytov approximation to vector waves for tomography of anisotropic materials," *Physical Review Letters* (2025).
 
 *For prospective students:* here you would build imaging instruments and reconstruction algorithms end to end — optics, illumination, and computation as one system. If that combination appeals to you, we would be glad to hear from you.
 
@@ -62,7 +64,9 @@ The same light-field measurement approach that images living cells without stain
 
 **Representative publications.** *(Optical and X-ray metrology methods underpinning this direction; semiconductor- and display-specific inspection studies are in active development.)*
 
-{% bibliography --query @*[key=jo2024three || key=lee2024visualizing || key=lee2026speckle] %}
+- J. Jo et al., "Three-dimensional measurement of refractive-index distributions of volume holographic gratings using low-coherence holotomography," *Advanced Optical Materials* (2024).
+- J. Lee et al., "Visualizing three-dimensional anisotropic molecular orientation in polarization holographic optical elements via dielectric tensor tomography," *Advanced Optical Materials* (2024).
+- K. Lee et al., "Speckle-based X-ray microtomography via preconditioned Wirtinger flow," *Light: Science & Applications* (2026).
 
 *For prospective students:* this area is where optical physics meets real manufacturing constraints. You would adapt imaging and inverse-problem methods to industrially relevant samples and work at the interface between the lab and the systems that industry builds.
 
@@ -87,7 +91,9 @@ Label-free 3D imaging and AI, brought together to ask harder questions in organo
 
 **Representative publications.**
 
-{% bibliography --query @*[key=park2025revealing || key=lee2024long || key=oh2026morphology] %}
+- J. Park et al., "Revealing 3D microanatomical structures of unlabeled thick tissues from cancer patients using holotomography and virtual H&E staining via deep learning," *Nature Communications* (2025).
+- M. J. Lee et al., "Long-term three-dimensional high-resolution imaging of live unlabeled small intestinal organoids using low-coherence holotomography," *Experimental & Molecular Medicine* (2023).
+- C. Oh et al., "Morphology-preserving holotomography: quantitative analysis of 3D organoid dynamics," *IEEE Transactions on Medical Imaging* (2026).
 
 *For prospective students:* if you are drawn to biological questions and want to work where quantitative imaging and machine learning meet live-cell biology, this is where our methods meet real specimens and collaborators.
 
@@ -112,7 +118,7 @@ Label-free imaging and AI for non-invasive assessment and selection of oocytes, 
 
 **Representative publications.**
 
-{% bibliography --query @*[key=kim2026holotomography] %}
+- M. Kim et al., "Holotomography reveals biophysical remodeling of mouse oocytes during post-ovulatory aging," *bioRxiv* (2026, preprint).
 
 *Embryo, blastocyst, and sperm assessment studies from the lab are in preparation and will be added on publication.*
 
