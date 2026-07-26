@@ -19,7 +19,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 
 <div class="row">
   <div class="col-md-3 col-6 bmol-person">
-    <img src="{{ '/assets/img/team/yongkeun-park.png' | relative_url }}" alt="YongKeun (Paul) Park">
+    <img src="{{ '/assets/img/team/yongkeun-park.jpg' | relative_url }}" alt="YongKeun (Paul) Park">
     <p class="name">YongKeun (Paul) Park</p>
     <p class="meta">Professor of Physics · Director</p>
   </div>
