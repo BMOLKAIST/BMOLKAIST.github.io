@@ -3,6 +3,11 @@
 ---
 @charset "utf-8";
 
+/* BMOL cache-bust marker — bump on every CSS/partial change so bust_css_cache
+   (which hashes THIS entry file, not the imported partials) mints a new ?v= hash
+   and returning visitors fetch fresh CSS instead of a stale cached copy. */
+/* bmol-css-rev: 3 (mockup Hoefler serif) */
+
 /* Built-in Sass modules you’ll likely use across partials */
 @use "sass:math";
 @use "sass:string";
