@@ -27,12 +27,6 @@ The **Biomedical Optics Laboratory (BMOL)** at KAIST, directed by Prof. YongKeun
 
 Our research spans [quantitative phase imaging and holotomography](/research/), the control of multiple light scattering and wavefront shaping, machine-learning approaches to optical information, and the biology of cells, organoids, and tissues. See our [people](/people/) and [publications](/publications/).
 
-#### Selected highlights
-
-- **Nature Methods (2025):** Holotomography using visible LED light for precise measurement of the 3D refractive-index distribution of biological samples — imaging live cells and organoids at the subcellular level while maintaining viability.
-- **Nature Reviews Methods Primers (2024):** Our review on holotomography was featured as the cover.
-- **Nature Photonics (2018):** Rapid, label-free detection of anthrax spores in seconds.
-
 A virtual tour of the lab is available through the [Korean Academy of Science and Technology](http://labs.kast.or.kr/kr/physics2/index.html).
 
 ---
