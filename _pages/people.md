@@ -21,7 +21,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
   <div class="col-md-3 col-sm-4 col-6 mb-3 mb-md-0">
     <img src="{{ '/assets/img/team/yongkeun-park.jpg' | relative_url }}" alt="YongKeun (Paul) Park" style="width:100%; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,.14);">
   </div>
-  <div class="col-md-9 col-sm-8">
+  <div class="col-md-9 col-sm-8" style="font-size:14px;">
     <h4 style="margin:0 0 .4rem;">YongKeun (Paul) Park</h4>
     <p style="margin:0; line-height:1.7;">
       Endowed Chair Professor, Department of Physics, KAIST<br>
