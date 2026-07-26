@@ -1,0 +1,10 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: yk.park@kaist.ac.kr # your email address
+scholar_userid: # Prof. Park's Google Scholar ID — TODO: fill in (do not guess)
+rss_icon: true # comment this line to hide the RSS icon
+linkedin_username: yongkeun-paul-park-51200713
+x_username: BKaist
+youtube_id: UChOTAxTE9DiWkbNMVGjOVLA
+facebook_id: yongkeun.paul.park
