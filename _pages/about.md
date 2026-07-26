@@ -20,11 +20,9 @@ latest_posts:
 
 The **Biomedical Optics Laboratory (BMOL)** at KAIST, directed by Prof. YongKeun (Paul) Park, develops novel optical methods based on light scattering, interferometry, and light manipulation — to image biological and medical samples, understand the physics of diseases, and diagnose and treat them. Operating across the Department of Physics and the KAIST Institute, our work bridges optical technology development, basic biology, and clinical applications.
 
-<div class="row justify-content-center mt-3 mb-1">
-  <div class="col-12 p-0">
-    <div class="ratio ratio-16x9 z-depth-1" style="overflow:hidden; border-radius:8px;">
-      <iframe src="https://www.youtube.com/embed/SrCAiEOSz_s" title="Label-free observation of live neuron dynamics by holotomography" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+<div class="mt-4 mb-2" style="position:relative; left:50%; transform:translateX(-50%); width:min(1860px, 96vw);">
+  <div class="ratio ratio-16x9 z-depth-1" style="overflow:hidden; border-radius:8px;">
+    <iframe src="https://www.youtube.com/embed/SrCAiEOSz_s" title="Label-free observation of live neuron dynamics by holotomography" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 <div class="caption">Label-free 3D imaging of live neuron dynamics by holotomography — no staining, no fixation.</div>
