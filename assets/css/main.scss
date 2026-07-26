@@ -6,7 +6,7 @@
 /* BMOL cache-bust marker — bump on every CSS/partial change so bust_css_cache
    (which hashes THIS entry file, not the imported partials) mints a new ?v= hash
    and returning visitors fetch fresh CSS instead of a stale cached copy. */
-/* bmol-css-rev: 4 (news text pure white; only white + yellow) */
+/* bmol-css-rev: 5 (press-commentary pull-quote component) */
 
 /* Built-in Sass modules you’ll likely use across partials */
 @use "sass:math";

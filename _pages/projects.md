@@ -16,6 +16,20 @@ The Biomedical Optics Laboratory develops optical methods to measure and shape l
 
 Our research is organized into four areas — imaging methods for life science, metrology and inspection methods for industry, biological and medical applications, and in vitro fertilization — each drawing on the others. We welcome students, collaborators, and partners who want to measure what has been hard to see, and to help decide what to do with it.
 
+<div class="bmol-quotes">
+  <p class="bmol-eyebrow">Featured in the scientific press</p>
+
+  <blockquote class="bmol-quote">
+    <p>&ldquo;Holotomography &hellip; also uses visible light from LEDs, precisely measuring 3D refractive index distribution of biological samples to image live cells and organoids at the subcellular level. &hellip; This ensures that the cells remain viable.&rdquo;</p>
+    <cite>YongKeun Park (KAIST), in &ldquo;Life beyond labels,&rdquo; <em>Nature Methods</em> 22, 652 (2025).</cite>
+  </blockquote>
+
+  <blockquote class="bmol-quote">
+    <p>&ldquo;&hellip; YongKeun Park from the Korea Advanced Institute of Science and Technology &hellip; was able to show the rapid and label-free detection of anthrax spores in a few seconds &hellip;&rdquo;</p>
+    <cite>&ldquo;Intelligent learning with light,&rdquo; <em>Nature Photonics</em> 12, 571&ndash;573 (2018).</cite>
+  </blockquote>
+</div>
+
 ---
 
 ## Label-Free 3D Imaging of Living Matter

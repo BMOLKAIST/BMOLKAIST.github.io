@@ -392,3 +392,38 @@ a {
   color: var(--global-theme-color);
 }
 
+/* Press-commentary pull-quotes — external journal mentions of the lab, styled
+   in the .bmol-* system: yellow hairline + card surface, italic serif quote. */
+.bmol-quotes {
+  margin: 1.75rem 0 0.5rem;
+}
+.bmol-quote {
+  background: #1a1a1a;
+  border-left: 3px solid #faff69;
+  border-radius: 8px;
+  padding: 18px 22px;
+  margin: 14px 0 0;
+}
+.bmol-quote p {
+  font-family: var(--bmol-serif);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.55;
+  color: #ffffff;
+  margin: 0;
+}
+.bmol-quote cite {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--bmol-sans);
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #cccccc;
+}
+.bmol-quote cite em {
+  color: #faff69;
+  font-style: italic;
+}
+
