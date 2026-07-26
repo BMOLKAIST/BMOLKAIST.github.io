@@ -17,11 +17,22 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 
 ## Principal Investigator
 
-<div class="row">
-  <div class="col-md-3 col-6 bmol-person">
-    <img src="{{ '/assets/img/team/yongkeun-park.jpg' | relative_url }}" alt="YongKeun (Paul) Park">
-    <p class="name">YongKeun (Paul) Park</p>
-    <p class="meta">Professor of Physics · Director</p>
+<div class="row align-items-center mb-4">
+  <div class="col-md-3 col-sm-4 col-6 mb-3 mb-md-0">
+    <img src="{{ '/assets/img/team/yongkeun-park.jpg' | relative_url }}" alt="YongKeun (Paul) Park" style="width:100%; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,.14);">
+  </div>
+  <div class="col-md-9 col-sm-8">
+    <h4 style="margin:0 0 .4rem;">YongKeun (Paul) Park</h4>
+    <p style="margin:0; line-height:1.7;">
+      Endowed Chair Professor, Department of Physics, KAIST<br>
+      Director, Virtual 3D Biology Center, KAIST<br>
+      Optica Fellow, SPIE Fellow, NAEK Member, YKAST Member<br>
+      Cofounder and CEO, Tomocube<br>
+      Cofounder and Advisor, TheWaveTalk
+    </p>
+    <p style="margin:.6rem 0 0;">
+      <strong>O</strong>&nbsp;+82.42.350.2514 &nbsp;|&nbsp; <strong>E</strong>&nbsp;<a href="mailto:yk.park@kaist.ac.kr">yk.park@kaist.ac.kr</a> &nbsp;|&nbsp; <a href="https://www.dropbox.com/scl/fi/fj1sidzwd1a750kfygx9w/resume-ykpark-online-posting.pdf?rlkey=c8j94h77lgvo84s8zsxnrnhgh&amp;st=h9k7di9a&amp;dl=0" target="_blank" rel="noopener">CV</a>
+    </p>
   </div>
 </div>
 
