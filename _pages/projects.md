@@ -37,9 +37,7 @@ Quantitative phase imaging and holotomography that resolve the three-dimensional
 
 **Representative publications.**
 
-- J. Lee et al., "Incoherent dielectric tensor tomography for quantitative 3D measurement of biaxial anisotropy," *Nature Photonics* (2026).
-- G. Kim et al., "Holotomography," *Nature Reviews Methods Primers* (2024).
-- C. Oh et al., "Extending the Rytov approximation to vector waves for tomography of anisotropic materials," *Physical Review Letters* (2025).
+{% bibliography --query @*[key=lee2026incoherent || key=kim2024holotomography || key=oh2025extending] %}
 
 *For prospective students:* here you would build imaging instruments and reconstruction algorithms end to end — optics, illumination, and computation as one system. If that combination appeals to you, we would be glad to hear from you.
 
@@ -49,24 +47,22 @@ Quantitative phase imaging and holotomography that resolve the three-dimensional
 
 The same light-field measurement approach that images living cells without staining, turned toward the buried interfaces and transparent structures of advanced manufacturing.
 
-*Established: quantitative, label-free optical measurement of transparent and layered structures. Building toward: multimodal fusion of optics with X-ray and ultrasound for buried interfaces.*
+*Established: quantitative, label-free optical and X-ray measurement of transparent and layered structures. Building toward: fusing optics, X-ray, and ultrasound into a single registered volume for buried interfaces.*
 
-**What it is.** The physics we developed to see inside a living cell without staining it — recovering the full complex light field, reconstructing three-dimensional refractive-index structure, and shaping wavefronts through scattering media — is fundamentally a set of tools for non-destructive, quantitative measurement of things that are hard to see. In this area we carry that toolkit into semiconductor and display manufacturing, where the features of interest are increasingly transparent (glass, dielectrics), buried (bonded interfaces, stacked dies), or below the reach of any single modality. Our aim is to treat optics — and, increasingly, complementary probes such as X-ray and ultrasound — not as competing techniques but as different views of the same volume, unified by a common computational-imaging and inverse-problem framework. The goal is measurement that is quantitative, traceable, and gentle on the sample rather than destructive cross-sectioning.
+**What it is.** The physics we developed to see inside a living cell without staining it — recovering the full complex light field, reconstructing three-dimensional refractive-index structure, and shaping wavefronts through scattering media — is fundamentally a set of tools for non-destructive, quantitative measurement of things that are hard to see. In this area we carry that toolkit into semiconductor and display manufacturing, where the features of interest are increasingly transparent (glass, dielectrics), buried (bonded interfaces, stacked dies), or below the reach of any single modality. Our approach treats optics together with complementary probes — X-ray and ultrasound — not as competing techniques but as different views of the same volume, unified by a common computational-imaging and inverse-problem framework. The goal is measurement that is quantitative, traceable, and gentle on the sample rather than destructive cross-sectioning.
 
 **Why it matters.** Advanced packaging and display fabrication are moving toward architectures — through-glass vias, hybrid bonding, heterogeneous 3D integration, microLED arrays — where the critical features sit inside a stack and are optically or physically inaccessible to conventional surface metrology. Yield at these nodes depends on catching small voids, misalignment, and interface defects without sacrificing the part. A measurement discipline built around penetrating, label-free, quantitative imaging may enable in-line inspection where today's practice still relies on sampling and destructive analysis, providing a path toward tighter process control at manufacturing scale.
 
 **Representative directions.**
 
 - **Non-destructive volumetric metrology of transparent and layered structures** — Phase- and refractive-index-based tomography adapted from holotomography to characterize glass substrates, through-glass vias, and dielectric stacks in three dimensions. Because transparent materials are exactly where amplitude-only imaging fails, quantitative phase measurement offers a natural probe of crack, void, and taper geometry without cross-sectioning.
-- **Multimodal fusion for buried interfaces (an emerging program)** — Different probes access different opacity and depth regimes: optics for transparent and near-surface layers, X-ray for high-density and deeply buried features, ultrasound for acoustic-impedance contrast at bonded interfaces. A direction we are pursuing is joint reconstruction that would fuse these into a single registered volume, targeting hybrid-bonding voids and stacked-die alignment that no single method resolves alone.
+- **Multimodal fusion for buried interfaces** — Different probes access different opacity and depth regimes: optics for transparent and near-surface layers, X-ray for high-density and deeply buried features, ultrasound for acoustic-impedance contrast at bonded interfaces. We are developing joint reconstruction that fuses these into a single registered volume, targeting hybrid-bonding voids and stacked-die alignment that no single method resolves alone.
 - **Computational and learning-based inverse methods for inspection** — Physics-informed reconstruction and machine learning transferred from our biological imaging work — recovering structure from indirect, noisy, or partial measurements. Applied to inspection, this could support defect classification and virtual metrology, inferring hard-to-measure parameters from faster, cheaper signals.
 - **Quantitative characterization for display and emitter metrology** — Extending quantitative optical measurement to OLED and microLED devices — uniformity, layer structure, and defect signatures — where label-free, non-contact readout may complement electrical and photometric testing during panel and array fabrication.
 
-**Foundational methods we are extending toward industry.** *(This is an emerging direction; the work below establishes the measurement methods rather than industrial-inspection results.)*
+**Representative publications.** *(Optical and X-ray metrology methods underpinning this direction; semiconductor- and display-specific inspection studies are in active development.)*
 
-- J. Jo et al., "Three-dimensional measurement of refractive-index distributions of volume holographic gratings using low-coherence holotomography," *Advanced Optical Materials* (2024).
-- J. Lee et al., "Visualizing three-dimensional anisotropic molecular orientation in polarization holographic optical elements via dielectric tensor tomography," *Advanced Optical Materials* (2024).
-- K. Lee et al., "Speckle-based X-ray microtomography via preconditioned Wirtinger flow," *Light: Science & Applications* (2026).
+{% bibliography --query @*[key=jo2024three || key=lee2024visualizing || key=lee2026speckle] %}
 
 *For prospective students:* this area is where optical physics meets real manufacturing constraints. You would adapt imaging and inverse-problem methods to industrially relevant samples and work at the interface between the lab and the systems that industry builds.
 
@@ -91,9 +87,7 @@ Label-free 3D imaging and AI, brought together to ask harder questions in organo
 
 **Representative publications.**
 
-- J. Park et al., "Revealing 3D microanatomical structures of unlabeled thick tissues from cancer patients using holotomography and virtual H&E staining via deep learning," *Nature Communications* (2025).
-- M. J. Lee et al., "Long-term three-dimensional high-resolution imaging of live unlabeled small intestinal organoids using low-coherence holotomography," *Experimental & Molecular Medicine* (2023).
-- C. Oh et al., "Morphology-preserving holotomography: quantitative analysis of 3D organoid dynamics," *IEEE Transactions on Medical Imaging* (2026).
+{% bibliography --query @*[key=park2025revealing || key=lee2024long || key=oh2026morphology] %}
 
 *For prospective students:* if you are drawn to biological questions and want to work where quantitative imaging and machine learning meet live-cell biology, this is where our methods meet real specimens and collaborators.
 
@@ -118,7 +112,7 @@ Label-free imaging and AI for non-invasive assessment and selection of oocytes, 
 
 **Representative publications.**
 
-- M. Kim et al., "Holotomography reveals biophysical remodeling of mouse oocytes during post-ovulatory aging," *bioRxiv* (2026, preprint).
+{% bibliography --query @*[key=kim2026holotomography] %}
 
 *Embryo, blastocyst, and sperm assessment studies from the lab are in preparation and will be added on publication.*
 
