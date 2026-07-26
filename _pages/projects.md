@@ -130,6 +130,18 @@ Label-free imaging and AI for non-invasive assessment and selection of oocytes, 
 
 *Established: stain-free, quantitative imaging of individual gametes. Building toward: quantitative, AI-based selection readouts validated for clinical embryology.*
 
+<figure style="margin: 1.5rem 0;">
+  <img
+    src="{{ '/assets/img/research/ivf-embryo-timelapse.png' | relative_url }}"
+    alt="Label-free holotomographic time-lapse of a developing embryo from 0 to 72 hours, showing 3D refractive-index sections at successive depths"
+    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.14);"
+  />
+  <figcaption style="font-size: 13px; color: #cccccc; margin-top: 8px; line-height: 1.5;">
+    Stain-free holotomographic time-lapse of a developing embryo (0–72 h): quantitative 3D refractive-index imaging
+    follows cleavage and morphology non-invasively, without dyes or fixation.
+  </figcaption>
+</figure>
+
 **What it is.** Clinical embryology still depends heavily on subjective, morphology-based grading of gametes and embryos under conventional microscopy, and the most informative molecular assays are destructive — unacceptable for cells intended for transfer. We develop label-free, quantitative imaging methods, grounded in the lab's work on quantitative phase imaging and holotomography, that aim to measure the intrinsic optical properties of living oocytes, sperm, and embryos without dyes, fixation, or genetic reporters. Because these measurements are non-invasive and quantitative, they can be repeated over time on the same specimen and coupled with AI models that learn objective, reproducible signatures of developmental competence. The aim is to move embryo and gamete selection from expert visual judgment toward measurement-driven, auditable decisions that a clinic can standardize across operators and sites.
 
 **Why it matters.** Embryo and gamete selection is a high-leverage and, today, only weakly standardized step in assisted reproduction: the choice of which embryo to transfer strongly shapes success rates, yet current grading is operator-dependent and hard to reproduce between clinics. A method that is simultaneously non-invasive — so it carries no added risk to a specimen destined for transfer — and quantitative could provide a path toward more consistent, evidence-based selection, could reduce reliance on invasive genetic testing, and could make outcomes more comparable across laboratories. This is a clinically consequential, directly translational problem where label-free optics and AI are well matched to the constraint that the specimen must remain viable.
