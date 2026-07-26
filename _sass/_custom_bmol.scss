@@ -115,7 +115,19 @@ a {
   letter-spacing: -0.03em;
   margin: 0 0 22px;
   text-wrap: balance;
-  max-width: 16ch;
+  max-width: 640px;
+}
+.bmol-hero-sub {
+  display: block;
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  font-size: clamp(18px, 2.1vw, 26px);
+  line-height: 1.25;
+  letter-spacing: -0.012em;
+  color: #cccccc;
+  margin-top: 14px;
+  max-width: 34ch;
+  text-wrap: pretty;
 }
 .bmol-hero-lede {
   color: #cccccc;

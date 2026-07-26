@@ -8,7 +8,7 @@ layout: default
   <section class="bmol-hero">
     <div class="bmol-hero-text">
       <p class="bmol-eyebrow">{{ page.hero_eyebrow | default: site.title }}</p>
-      <h1 class="post-title bmol-hero-title">{{ page.hero_tagline | default: page.subtitle }}</h1>
+      <h1 class="post-title bmol-hero-title">{{ page.hero_tagline | default: page.subtitle }}{% if page.hero_tagline_sub %}<span class="bmol-hero-sub">{{ page.hero_tagline_sub }}</span>{% endif %}</h1>
       {% if page.hero_lede %}<p class="bmol-hero-lede">{{ page.hero_lede }}</p>{% endif %}
       <div class="bmol-cta">
         <a class="bmol-btn bmol-btn-primary" href="{{ '/research/' | relative_url }}">Explore research →</a>

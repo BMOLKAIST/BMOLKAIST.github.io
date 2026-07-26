@@ -4,7 +4,8 @@ title: about
 permalink: /
 
 hero_eyebrow: Biomedical Optics Laboratory · KAIST
-hero_tagline: Optics and AI to understand, diagnose, and treat human disease — and to measure the systems that industry builds.
+hero_tagline: Optics and AI
+hero_tagline_sub: to understand, diagnose, and treat human disease — and to measure the systems that industry builds.
 hero_lede: We measure and shape light — quantitative, label-free, and non-destructive — to see inside living matter, and to measure the systems that industry builds. Directed by Prof. YongKeun (Paul) Park, Department of Physics, KAIST.
 hero_video: SrCAiEOSz_s
 hero_stats:
