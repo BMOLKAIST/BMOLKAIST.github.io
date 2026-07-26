@@ -376,3 +376,19 @@ a {
   color: var(--global-text-color);
 }
 
+/* News: Bootstrap .table-dark keeps th/td near-white, but emphasis (strong/em)
+   fell back to the muted body color (#d0d0d0) and read as "dark" against the
+   white body text on the black canvas. Force all news text to pure white so the
+   page uses only two colors: white text + yellow links. */
+.news .table th,
+.news .table td,
+.news .table strong,
+.news .table b,
+.news .table em,
+.news .table i {
+  color: #ffffff;
+}
+.news .table a {
+  color: var(--global-theme-color);
+}
+
