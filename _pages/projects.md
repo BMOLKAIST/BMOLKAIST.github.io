@@ -91,6 +91,18 @@ Label-free 3D imaging and AI, brought together to ask harder questions in organo
 
 *Established: non-destructive, longitudinal imaging of living, unstained specimens. Building toward: learned models that turn 3D volumes into interpretable, quantitative biology.*
 
+<figure style="margin: 1.5rem 0;">
+  <img
+    src="{{ '/assets/img/research/ai-qpi-biomedical.png' | relative_url }}"
+    alt="Artificial-intelligence-enabled quantitative phase imaging for biomedical systems: image enhancement, segmentation, classification, and virtual staining"
+    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.14);"
+  />
+  <figcaption style="font-size: 13px; color: #cccccc; margin-top: 8px; line-height: 1.5;">
+    Pairing label-free quantitative phase imaging with machine learning turns 3D measurements into interpretable biology —
+    image enhancement, segmentation, cell-type classification, and virtual staining across biomedical systems.
+  </figcaption>
+</figure>
+
 **What it is.** This area applies the lab's quantitative, label-free 3D imaging methods — coupled with machine learning — to biological systems that resist conventional approaches: organoids, three-dimensional cancer models, developing embryos, and engineered tissues for regenerative medicine. Because holotomographic imaging measures refractive index directly, it can follow living, unstained specimens over hours to days without the phototoxicity and labeling constraints that limit fluorescence. Our strategy is to pair that continuous, quantitative readout with learned models that turn raw 3D volumes into interpretable biology — morphodynamic trajectories, virtual molecular stains, and phenotypic profiles. The aim is not imaging for its own sake, but measurement-driven methods that let biologists observe processes as they unfold rather than infer them from fixed endpoints.
 
 **Why it matters.** Much of modern biology is studied in destructive snapshots: cells are fixed, stained, or dissociated, and dynamics are inferred from populations rather than observed in individuals. Label-free 3D imaging combined with AI offers a complementary path — non-destructive, longitudinal observation of the same living specimen, quantified volume by volume. For organoid and 3D cancer models this may improve reproducibility and open access to growth, differentiation, and drug-response trajectories that endpoint assays miss; for developmental biology it could enable gentle, continuous observation of morphogenesis; and for regenerative medicine it provides a route toward standardized, quantitative quality assessment of living cell and tissue products.
