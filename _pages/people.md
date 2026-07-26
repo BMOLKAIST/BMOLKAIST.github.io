@@ -21,16 +21,16 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
   <div class="col-md-3 col-sm-4 col-6 mb-3 mb-md-0">
     <img src="{{ '/assets/img/team/yongkeun-park.jpg' | relative_url }}" alt="YongKeun (Paul) Park" style="width:100%; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,.14);">
   </div>
-  <div class="col-md-9 col-sm-8" style="font-size:14px;">
-    <h4 style="margin:0 0 .4rem;">YongKeun (Paul) Park</h4>
-    <p style="margin:0; line-height:1.7;">
+  <div class="col-md-9 col-sm-8">
+    <p style="font-weight:600; font-size:.95rem; line-height:1.2; margin:0 0 .5rem;">YongKeun (Paul) Park</p>
+    <p style="font-size:.8rem; opacity:.65; margin:0; line-height:1.6;">
       Endowed Chair Professor, Department of Physics, KAIST<br>
       Director, Virtual 3D Biology Center, KAIST<br>
       Optica Fellow, SPIE Fellow, NAEK Member, YKAST Member<br>
       Cofounder and CEO, Tomocube<br>
       Cofounder and Advisor, TheWaveTalk
     </p>
-    <p style="margin:.6rem 0 0;">
+    <p style="font-size:.8rem; opacity:.65; margin:.5rem 0 0;">
       <strong>O</strong>&nbsp;+82.42.350.2514 &nbsp;|&nbsp; <strong>E</strong>&nbsp;<a href="mailto:yk.park@kaist.ac.kr">yk.park@kaist.ac.kr</a> &nbsp;|&nbsp; <a href="https://www.dropbox.com/scl/fi/fj1sidzwd1a750kfygx9w/resume-ykpark-online-posting.pdf?rlkey=c8j94h77lgvo84s8zsxnrnhgh&amp;st=h9k7di9a&amp;dl=0" target="_blank" rel="noopener">CV</a>
     </p>
   </div>
@@ -43,6 +43,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
   <div class="col-md-3 col-6 bmol-person">
     <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
     <p class="name">{{ m.name }}</p>
+    <p class="meta">{{ m.email }}</p>
     <p class="meta">Since {{ m.since }}</p>
   </div>
 {% endfor %}
@@ -55,6 +56,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
   <div class="col-md-3 col-6 bmol-person">
     <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
     <p class="name">{{ m.name }}</p>
+    <p class="meta">{{ m.email }}</p>
     <p class="meta">Since {{ m.since }}</p>
   </div>
 {% endfor %}
@@ -67,6 +69,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
   <div class="col-md-3 col-6 bmol-person">
     <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
     <p class="name">{{ m.name }}</p>
+    <p class="meta">{{ m.email }}</p>
   </div>
 {% endfor %}
 </div>
