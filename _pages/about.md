@@ -2,7 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Optics and AI to understand, diagnose, and treat human disease — and to measure the systems that industry builds.</strong> Department of Physics, KAIST.
+
+hero_eyebrow: Biomedical Optics Laboratory · KAIST
+hero_tagline: Optics and AI to understand, diagnose, and treat human disease — and to measure the systems that industry builds.
+hero_lede: We measure and shape light — quantitative, label-free, and non-destructive — to see inside living matter, and to measure the systems that industry builds. Directed by Prof. YongKeun (Paul) Park, Department of Physics, KAIST.
+hero_video: SrCAiEOSz_s
+hero_stats:
+  - n: "287"
+    l: Publications
+  - n: "27"
+    l: Lab members
+  - n: "9"
+    l: Alumni in faculty roles
+
+cta_band_eyebrow: Join the lab
+cta_band_title: We welcome students, collaborators, and partners who want to measure what has been hard to see.
+cta_band_cta: Get in touch →
+cta_band_link: "mailto:yk.park@kaist.ac.kr"
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -18,18 +34,39 @@ latest_posts:
   limit: 3
 ---
 
-The **Biomedical Optics Laboratory (BMOL)** at KAIST, directed by Prof. YongKeun (Paul) Park, develops optical methods — grounded in interferometry, light scattering, and wavefront shaping, and increasingly paired with machine learning — to measure and shape light for quantitative, label-free, and non-destructive insight into complex systems.
+<section class="bmol-research-teaser">
+<p class="bmol-eyebrow">Research</p>
+<h2 class="bmol-section-title">One measurement science, four frontiers.</h2>
 
-From this single foundation in measurement science, our work reaches across two frontiers. Our founding commitment, and the larger share of what we do, is human health: we image living cells, tissues, and embryos to understand the physics of disease and to help diagnose and treat it. From the same physics, we now also address metrology and inspection in advanced industry. Across both, we couple imaging with machine learning to move from images to decisions. Operating across the Department of Physics and the KAIST Institute, the lab bridges optical technology development, basic biology, and clinical and industrial applications.
-
-<div class="mt-4 mb-2" style="position:relative; left:50%; width:100vw; margin-left:-50vw; text-align:center;">
-  <iframe src="https://www.youtube.com/embed/SrCAiEOSz_s" style="width:min(900px, 92vw); aspect-ratio:16 / 9; height:auto; border:0; border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,.18);" title="Label-free observation of live neuron dynamics by holotomography" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="bmol-cards">
+  <a class="bmol-card bmol-card-flag" href="{{ '/research/' | relative_url }}">
+    <span class="idx">01</span>
+    <span class="h">Label-Free 3D Imaging of Living Matter</span>
+    <span class="p">Quantitative phase imaging and holotomography that resolve living cells without stains, dyes, or fixation.</span>
+    <span class="go">Life-Science Methods →</span>
+  </a>
+  <a class="bmol-card" href="{{ '/research/' | relative_url }}">
+    <span class="idx">02</span>
+    <span class="h">Seeing Inside What Manufacturing Builds</span>
+    <span class="p">The same light-field measurement, turned toward the buried interfaces and transparent structures of advanced manufacturing.</span>
+    <span class="go">Industrial Metrology →</span>
+  </a>
+  <a class="bmol-card" href="{{ '/research/' | relative_url }}">
+    <span class="idx">03</span>
+    <span class="h">Observing Living Biology as It Unfolds</span>
+    <span class="p">Label-free 3D imaging and AI, brought together to ask harder questions in organoid, cancer, and regenerative biology.</span>
+    <span class="go">Life-Science Applications →</span>
+  </a>
+  <a class="bmol-card" href="{{ '/research/' | relative_url }}">
+    <span class="idx">04</span>
+    <span class="h">Non-Invasive Imaging for Assisted Reproduction</span>
+    <span class="p">Label-free imaging and AI for non-invasive assessment and selection of oocytes, sperm, and embryos.</span>
+    <span class="go">In Vitro Fertilization →</span>
+  </a>
 </div>
-<div class="caption">Label-free 3D imaging of live neuron dynamics by holotomography — no staining, no fixation.</div>
+</section>
 
-Our research is organized into four areas — [imaging methods for life science](/research/), [metrology and inspection methods for industry](/research/), [biological and medical applications](/research/), and [in vitro fertilization](/research/) — each drawing on the others. We welcome students, collaborators, and partners who want to measure what has been hard to see. See our [people](/people/) and [publications](/publications/).
-
-A virtual tour of the lab is available through the [Korean Academy of Science and Technology](http://labs.kast.or.kr/kr/physics2/index.html).
+Our work bridges optical technology development, basic biology, and clinical and industrial applications — across the Department of Physics and the KAIST Institute. See our [people](/people/) and [publications](/publications/), or take a virtual tour of the lab through the [Korean Academy of Science and Technology](http://labs.kast.or.kr/kr/physics2/index.html).
 
 ---
 

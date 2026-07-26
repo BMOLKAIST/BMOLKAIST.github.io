@@ -1,0 +1,93 @@
+---
+layout: default
+---
+{% comment %} BMOL local override of al_folio_core about layout — bespoke dark-native hero + preserved article sections + closing CTA band. {% endcomment %}
+<div class="post bmol-home">
+
+  <!-- HERO -->
+  <section class="bmol-hero">
+    <div class="bmol-hero-text">
+      <p class="bmol-eyebrow">{{ page.hero_eyebrow | default: site.title }}</p>
+      <h1 class="post-title bmol-hero-title">{{ page.hero_tagline | default: page.subtitle }}</h1>
+      {% if page.hero_lede %}<p class="bmol-hero-lede">{{ page.hero_lede }}</p>{% endif %}
+      <div class="bmol-cta">
+        <a class="bmol-btn bmol-btn-primary" href="{{ '/research/' | relative_url }}">Explore research →</a>
+        <a class="bmol-btn bmol-btn-ghost" href="{{ '/people/' | relative_url }}">Meet the lab</a>
+      </div>
+      {% if page.hero_stats %}
+      <div class="bmol-stats">
+        {% for s in page.hero_stats %}
+        <div class="bmol-stat"><div class="n">{{ s.n }}</div><div class="l">{{ s.l }}</div></div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% if page.hero_video %}
+    <div class="bmol-hero-viz">
+      <div class="bmol-video">
+        <iframe src="https://www.youtube.com/embed/{{ page.hero_video }}" title="Label-free observation of live neuron dynamics by holotomography" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p class="bmol-viz-cap"><span class="k">Holotomography</span> — label-free 3D imaging of live neuron dynamics, no staining or fixation.</p>
+    </div>
+    {% endif %}
+  </section>
+
+  <article>
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+
+  <!-- Closing CTA band (ClickHouse full-bleed yellow) -->
+  {% if page.cta_band_title %}
+  <section class="bmol-band">
+    <div class="bmol-band-inner">
+      <div class="bmol-band-text">
+        <p class="bmol-eyebrow bmol-band-eyebrow">{{ page.cta_band_eyebrow | default: 'Join the lab' }}</p>
+        <h2 class="bmol-band-title">{{ page.cta_band_title }}</h2>
+      </div>
+      <a class="bmol-btn bmol-btn-dark" href="{{ page.cta_band_link | default: 'mailto:yk.park@kaist.ac.kr' }}">{{ page.cta_band_cta | default: 'Get in touch →' }}</a>
+    </div>
+  </section>
+  {% endif %}
+
+</div>

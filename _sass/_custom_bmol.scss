@@ -82,3 +82,279 @@ a {
   border-color: var(--global-hover-color);
   color: #0a0a0a;
 }
+
+/*******************************************************************************
+ * Phase 2 — bespoke home hero components (dark-native, ClickHouse × ElevenLabs)
+ ******************************************************************************/
+
+.bmol-eyebrow {
+  font-family: var(--bmol-sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #faff69;
+  margin: 0 0 18px;
+}
+
+/* ---- hero ---- */
+.bmol-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 52px;
+  align-items: center;
+  padding: 32px 0 60px;
+  border-bottom: 1px solid #2a2a2a;
+}
+.bmol-hero-title {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  color: #ffffff;
+  font-size: clamp(34px, 4.4vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 0 0 22px;
+  text-wrap: balance;
+  max-width: 16ch;
+}
+.bmol-hero-lede {
+  color: #cccccc;
+  font-size: 17px;
+  line-height: 1.55;
+  margin: 0 0 30px;
+  max-width: 52ch;
+}
+
+/* ---- buttons ---- */
+.bmol-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--bmol-sans);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 12px 18px;
+  line-height: 1;
+  border: 1px solid transparent;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.bmol-btn,
+.bmol-btn:hover {
+  text-decoration: none;
+}
+.bmol-btn-primary {
+  background: #faff69;
+  color: #0a0a0a;
+}
+.bmol-btn-primary:hover {
+  background: #e6eb52;
+  color: #0a0a0a;
+}
+.bmol-btn-ghost {
+  background: transparent;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+.bmol-btn-ghost:hover {
+  border-color: #888888;
+  color: #ffffff;
+}
+.bmol-btn-dark {
+  background: #0a0a0a;
+  color: #faff69;
+}
+.bmol-btn-dark:hover {
+  background: #000000;
+  color: #faff69;
+}
+.bmol-cta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* ---- stat callouts ---- */
+.bmol-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 38px;
+  padding-top: 28px;
+  border-top: 1px solid #2a2a2a;
+  flex-wrap: wrap;
+}
+.bmol-stat .n {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1;
+  color: #faff69;
+  letter-spacing: -0.02em;
+}
+.bmol-stat .l {
+  font-size: 12.5px;
+  color: #888888;
+  margin-top: 8px;
+}
+
+/* ---- hero video ---- */
+.bmol-hero-viz {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.bmol-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+.bmol-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.bmol-viz-cap {
+  font-size: 13px;
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.45;
+}
+.bmol-viz-cap .k {
+  color: #faff69;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+/* ---- research teaser cards ---- */
+.bmol-research-teaser {
+  padding: 56px 0 8px;
+}
+.bmol-section-title {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  color: #ffffff;
+  font-size: clamp(26px, 3.2vw, 36px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 10px 0 32px;
+}
+.bmol-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.bmol-card {
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 26px;
+  min-height: 200px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.bmol-card,
+.bmol-card:hover {
+  text-decoration: none;
+}
+.bmol-card:hover {
+  border-color: #3a3a3a;
+  transform: translateY(-2px);
+}
+.bmol-card .idx {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 12px;
+  color: #888888;
+  letter-spacing: 0.05em;
+}
+.bmol-card .h {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  margin: 14px 0 0;
+}
+.bmol-card .p {
+  font-size: 14.5px;
+  color: #888888;
+  line-height: 1.55;
+  margin: 11px 0 0;
+}
+.bmol-card .go {
+  margin-top: auto;
+  padding-top: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #faff69;
+}
+.bmol-card-flag {
+  background: #faff69;
+  border-color: #faff69;
+}
+.bmol-card-flag .idx {
+  color: rgba(10, 10, 10, 0.55);
+}
+.bmol-card-flag .h,
+.bmol-card-flag .go {
+  color: #0a0a0a;
+}
+.bmol-card-flag .p {
+  color: rgba(10, 10, 10, 0.78);
+}
+
+/* ---- full-bleed yellow CTA band ---- */
+.bmol-band {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-top: 44px;
+  background: #faff69;
+}
+.bmol-band-inner {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 56px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.bmol-band-eyebrow {
+  color: rgba(10, 10, 10, 0.6);
+}
+.bmol-band-title {
+  font-family: var(--bmol-serif);
+  font-weight: 300;
+  color: #0a0a0a;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin: 10px 0 0;
+  max-width: 40ch;
+}
+
+@media (max-width: 800px) {
+  .bmol-hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-top: 20px;
+  }
+  .bmol-cards {
+    grid-template-columns: 1fr;
+  }
+  .bmol-stats {
+    gap: 26px;
+  }
+}
+
