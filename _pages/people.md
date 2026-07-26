@@ -31,7 +31,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
       Cofounder and Advisor, TheWaveTalk
     </p>
     <p style="font-size:.8rem; opacity:.65; margin:.5rem 0 0;">
-      <strong>O</strong>&nbsp;+82.42.350.2514 &nbsp;|&nbsp; <strong>E</strong>&nbsp;<a href="mailto:yk.park@kaist.ac.kr">yk.park@kaist.ac.kr</a> &nbsp;|&nbsp; <a href="https://www.dropbox.com/scl/fi/fj1sidzwd1a750kfygx9w/resume-ykpark-online-posting.pdf?rlkey=c8j94h77lgvo84s8zsxnrnhgh&amp;st=h9k7di9a&amp;dl=0" target="_blank" rel="noopener">CV</a>
+      <strong>O</strong>&nbsp;+82.42.350.2514 &nbsp;|&nbsp; <strong>E</strong>&nbsp;yk.park at kaist.ac.kr &nbsp;|&nbsp; <a href="https://www.dropbox.com/scl/fi/fj1sidzwd1a750kfygx9w/resume-ykpark-online-posting.pdf?rlkey=c8j94h77lgvo84s8zsxnrnhgh&amp;st=h9k7di9a&amp;dl=0" target="_blank" rel="noopener">CV</a>
     </p>
   </div>
 </div>
