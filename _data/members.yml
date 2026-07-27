@@ -4,6 +4,7 @@
 admin:
   - name: "Hyun-Ju Park"
     role: "Administrative Assistant"
+    email: "hyunju90 at kaist.ac.kr"
     image: ""
 
 postdocs:

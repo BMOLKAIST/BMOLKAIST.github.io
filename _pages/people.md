@@ -76,7 +76,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 
 ## Administrative Staff
 
-- **Hyun-Ju Park** — Administrative Assistant
+- **Hyun-Ju Park** — Administrative Assistant <span class="meta">hyunju90 at kaist.ac.kr</span>
 
 ---
 
