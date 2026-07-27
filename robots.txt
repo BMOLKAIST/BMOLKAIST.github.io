@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bmolkaist.github.io/sitemap.xml
+Sitemap: https://bmol.kaist.ac.kr/sitemap.xml
