@@ -1,9 +1,33 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Whitelist of "major" journals that get a highlighted abbr badge on the
+# publications page. Only abbrs listed here render a badge; all others show
+# no badge (see _layouts/bib.liquid — the else branch was removed).
+# color = theme accent (dark-native yellow). Add/remove journals as needed.
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"Nature":
+  color: "#faff69"
+"Nat. Methods":
+  color: "#faff69"
+"Nat. Photon.":
+  color: "#faff69"
+"Nat. Mater.":
+  color: "#faff69"
+"Nat. Commun.":
+  color: "#faff69"
+"Nat. Cell Biol.":
+  color: "#faff69"
+"Nat. Rev. Methods Primers":
+  color: "#faff69"
+"Science":
+  color: "#faff69"
+"Sci. Adv.":
+  color: "#faff69"
+"Light Sci. Appl.":
+  color: "#faff69"
+"PNAS":
+  color: "#faff69"
+"Optica":
+  color: "#faff69"
+"Phys. Rev. Lett.":
+  color: "#faff69"
+"IEEE Trans. Med. Imaging":
+  color: "#faff69"
