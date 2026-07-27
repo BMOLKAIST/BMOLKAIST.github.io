@@ -427,3 +427,16 @@ a {
   font-style: italic;
 }
 
+/* Journal abbr badges (publications): black text on the yellow badge, and wrap
+   long names inside the box instead of overflowing. */
+.publications .abbr .badge,
+.publications .abbr .badge a,
+.publications .abbr .badge div {
+  color: #0a0a0a !important;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-size: 0.7rem;
+  line-height: 1.12;
+}
+
