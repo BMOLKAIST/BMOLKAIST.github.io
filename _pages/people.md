@@ -13,6 +13,10 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 .bmol-person .name { font-weight: 600; margin: .5rem 0 0; font-size: .95rem; line-height: 1.2; }
 .bmol-person .meta { font-size: .8rem; margin: 0; opacity: .65; }
 .bmol-alumni li { margin-bottom: .25rem; }
+.bmol-alumni-cta { border: 1px solid #2a2a2a; border-left: 3px solid #faff69; border-radius: 10px; padding: 24px 26px; margin: 0 0 2rem; background: rgba(250,255,105,.04); }
+.bmol-alumni-cta h3 { font-family: var(--bmol-serif); font-weight: 400; font-size: 1.35rem; letter-spacing: -.01em; margin: 0 0 .6rem; }
+.bmol-alumni-cta p { font-size: .9rem; opacity: .75; line-height: 1.6; margin: 0 0 .5rem; }
+.bmol-alumni-cta .bmol-btn { margin-top: .9rem; }
 </style>
 
 ## Principal Investigator
@@ -81,6 +85,13 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 ---
 
 ## Alumni
+
+<div class="bmol-alumni-cta">
+  <h3>BMOL Alumni Network</h3>
+  <p>졸업생과 재학생이 함께하는 LinkedIn 그룹입니다. 근황·논문·채용·학회 소식을 나눕니다.</p>
+  <p>Wherever you are now, stay connected with the lab — tell us where you landed, share an opening or a new paper, and find collaborators among people you already know.</p>
+  <a class="bmol-btn bmol-btn-primary" href="https://www.linkedin.com/groups/38550024/" target="_blank" rel="noopener">Join the BMOL LinkedIn Group →</a>
+</div>
 
 <div class="bmol-alumni" markdown="1">
 
