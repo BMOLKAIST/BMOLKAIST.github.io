@@ -88,7 +88,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 
 <div class="bmol-alumni-cta">
   <h3>BMOL Alumni Network</h3>
-  <p>졸업생과 재학생이 함께하는 LinkedIn 그룹입니다. 근황·논문·채용·학회 소식을 나눕니다.</p>
+  <p>A LinkedIn group for BMOL alumni and current members — news, papers, openings, and conference meetups.</p>
   <p>Wherever you are now, stay connected with the lab — tell us where you landed, share an opening or a new paper, and find collaborators among people you already know.</p>
   <a class="bmol-btn bmol-btn-primary" href="https://www.linkedin.com/groups/38550024/" target="_blank" rel="noopener">Join the BMOL LinkedIn Group →</a>
 </div>
