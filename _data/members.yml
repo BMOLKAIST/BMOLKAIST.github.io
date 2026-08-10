@@ -88,6 +88,9 @@ grads:
     since: "Spring 2026"
 
 undergrads:
+  - name: "Kyuree Kim"
+    image: "kyuree-kim.jpg"
+    email: "kyureeosity at g.eulji.ac.kr"
   - name: "Samuel Dawit Assefa"
     image: "samuel-assefa.jpg"
     email: "samuelassefa at kaist.ac.kr"
@@ -97,6 +100,9 @@ undergrads:
   - name: "Geonwoo Lee"
     image: "geonwoo-lee.jpg"
     email: "mxphy1 at kaist.ac.kr"
+  - name: "Hyunseo Han"
+    image: "hyunseo-han.jpg"
+    email: "hanemula at kaist.ac.kr"
 
 # --- Alumni (no photos; text listing with current position) ---
 alumni_research_prof:
