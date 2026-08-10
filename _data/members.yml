@@ -42,10 +42,6 @@ grads:
     image: "chulmin-oh.jpg"
     email: "chisquare at kaist.ac.kr"
     since: "Fall 2022"
-  - name: "Tal Lifshitz"
-    image: "tal-lifshitz.jpg"
-    email: "talif at kaist.ac.kr"
-    since: "Fall 2023"
   - name: "Minwook Kim"
     image: "minwook-kim.jpg"
     email: "brian10kim22 at kaist.ac.kr"
@@ -158,6 +154,8 @@ alumni_grads:
     note: "2021 Fall – 2022 Summer"
   - name: "Mahn Jae Lee"
     note: "2019 Spring – 2024 Fall · Professor, Biochemistry, Chungnam National University Hospital (CNUH), Korea"
+  - name: "Tal Lifshitz"
+    note: "2023 Fall – 2026 Summer · Ph.D. student, Biophysics, Cornell University, USA"
 
 alumni_research_assistant:
   - name: "Donghun Ryu"
