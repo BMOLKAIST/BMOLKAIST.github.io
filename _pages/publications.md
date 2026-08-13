@@ -16,8 +16,18 @@ For a complete and continuously updated record, see Prof. YongKeun (Paul) Park's
 
 {% include bib_search.liquid %}
 
+<h2>Preprints</h2>
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --file preprints %}
+
+</div>
+
+<h2>Publications</h2>
+
+<div class="publications">
+
+{% bibliography --file papers %}
 
 </div>
