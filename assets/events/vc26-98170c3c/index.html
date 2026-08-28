@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Virtual Cell 공동 세미나 · 2026.08.24 KAIST</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
@@ -78,6 +79,8 @@
     letter-spacing:1.5px;font-size:.75rem;font-weight:600;padding:12px 24px;border-radius:24px;
     border:none;transition:background .18s ease,color .18s ease}
   .cta:hover{background:var(--violet);color:#fff}
+  .cta.ghost{background:transparent;border:1px solid var(--line-strong);color:var(--ink);margin-left:10px}
+  .cta.ghost:hover{background:var(--ink);color:var(--canvas);border-color:var(--ink)}
 
   /* ---------- SECTION HEADER ---------- */
   section{padding:56px 0}
@@ -149,6 +152,26 @@
   .scope li{position:relative;padding-left:18px;font-size:.95rem;color:rgba(255,255,255,.92);line-height:1.45}
   .scope li::before{content:"";position:absolute;left:0;top:.5em;width:7px;height:7px;background:var(--mint);border-radius:50%}
 
+  /* ---------- MATERIALS ---------- */
+  .decks{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .deckcard{background:var(--slate);border-radius:20px;padding:22px 24px;display:flex;flex-direction:column}
+  .deckcard .sess{font-family:var(--mono);text-transform:uppercase;letter-spacing:1.4px;
+    font-size:.64rem;font-weight:600;color:var(--sec);display:flex;align-items:center;gap:8px}
+  .deckcard .sess::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--dot,var(--ink))}
+  .deckcard .name{font-weight:700;font-size:1.06rem;color:var(--ink);margin-top:9px}
+  .deckcard .name span{font-weight:400;font-size:.86rem;color:var(--sec);margin-left:6px}
+  .deckcard .ttl{font-size:.9rem;color:var(--muted);line-height:1.45;margin:6px 0 0}
+  .deckcard .meta{font-family:var(--mono);text-transform:uppercase;letter-spacing:1.1px;
+    font-size:.64rem;color:var(--sec);margin:10px 0 0;font-variant-numeric:tabular-nums}
+  .dl{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;margin-top:auto;
+    background:var(--ink);color:var(--canvas);font-family:var(--mono);text-transform:uppercase;
+    letter-spacing:1.4px;font-size:.7rem;font-weight:600;padding:10px 18px;border-radius:22px;
+    transition:background .18s ease,color .18s ease}
+  .deckcard .meta + .dl{margin-top:16px}
+  .dl:hover{background:var(--violet);color:#fff}
+  .dlnote{font-size:.86rem;color:var(--sec);line-height:1.55;margin:18px 0 0}
+  .dlnote b{color:var(--ink)}
+
   /* ---------- CONTACTS ---------- */
   .contacts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
   .contact{background:var(--slate);border-radius:20px;padding:20px 22px;display:flex;flex-direction:column;gap:5px}
@@ -171,6 +194,7 @@
   @media(max-width:760px){
     .grid2{grid-template-columns:1fr}
     .contacts{grid-template-columns:1fr}
+    .decks{grid-template-columns:1fr}
   }
   @media(max-width:600px){
     .stream::before,.item::before{display:none}
@@ -219,6 +243,7 @@
     </div>
 
     <a class="cta" href="https://naver.me/GoDsZiyq" target="_blank" rel="noopener">KAIST 자연과학동 E6 · 1323 · 지도 ↗</a>
+    <a class="cta ghost" href="#materials">발표자료 다운로드 ↓</a>
   </div>
 </header>
 
@@ -310,6 +335,47 @@
       </div>
 
     </div>
+  </section>
+
+  <section class="reveal" id="materials">
+    <div class="shead"><span class="kick">Materials</span><h2>Slides &amp; Downloads</h2><span class="line"></span></div>
+
+    <ul class="decks">
+      <li class="deckcard" style="--dot:var(--violet)">
+        <span class="sess">Session 01 · Modeling</span>
+        <span class="name">송윤민 <span>KAIST / IBS</span></span>
+        <p class="ttl">세포의 상태와 동역학을 이해·예측하기 위한 수학적 모델과 이론적 접근</p>
+        <p class="meta">PPTX · 30 slides · 32 MB</p>
+        <a class="dl" href="https://www.dropbox.com/scl/fi/wovx2o41i8cc8qkjnaq7r/20260824_-_Virtual-Cell.pptx?rlkey=5lkfs490il5cag7v5ddgtnyiu&amp;st=utz1ch9l&amp;dl=0" target="_blank" rel="noopener">자료 받기 ↗</a>
+      </li>
+
+      <li class="deckcard" style="--dot:var(--mint-bd)">
+        <span class="sess">Session 02 · Measurement</span>
+        <span class="name">박용근 <span>KAIST / Tomocube</span></span>
+        <p class="ttl">Holotomography and AI</p>
+        <p class="meta">PPTX · 33 slides · 217 MB</p>
+        <a class="dl" href="https://www.dropbox.com/scl/fi/1fvawau4ji3xgwg38wkxd/20260824-virtual-cell-workshop-ykpark-v1-share.pptx?rlkey=w6x09p2izvu7gqxws5hu95raa&amp;st=ux7kfr2w&amp;dl=0" target="_blank" rel="noopener">자료 받기 ↗</a>
+      </li>
+
+      <li class="deckcard" style="--dot:var(--mint-bd)">
+        <span class="sess">Session 02 · Measurement</span>
+        <span class="name">이만재 <span>충남대학교병원</span></span>
+        <p class="ttl">How Can We Predict Immunotherapy Response in Lung Cancer? — Holotomography와 single-cell transcriptomics를 결합한 환자 유래 오가노이드 접근</p>
+        <p class="meta">PPTX · 39 slides · 502 MB</p>
+        <a class="dl" href="https://www.dropbox.com/scl/fi/p2sjwzxcm1fr7wgjb333x/20260824_-_Organoid-Immunotherapy.pptx?rlkey=eytd437xmdep4e1th83s0uq1b&amp;st=g4jhd3xi&amp;dl=0" target="_blank" rel="noopener">자료 받기 ↗</a>
+      </li>
+
+      <li class="deckcard" style="--dot:var(--yellow)">
+        <span class="sess">Session 03 · AI</span>
+        <span class="name">임성빈 <span>고려대학교</span></span>
+        <p class="ttl">Probabilistic Generative Modeling for Measurement-Grounded Virtual Cells</p>
+        <p class="meta">PDF · 61 pages · 43 MB</p>
+        <a class="dl" href="https://www.dropbox.com/scl/fi/3u2be0fzocxarbcr5omnc/20260824_-_Virtual-Cell.pdf?rlkey=bm99orgfskqnrkf10zr81q9vl&amp;st=iqj80djv&amp;dl=0" target="_blank" rel="noopener">자료 받기 ↗</a>
+      </li>
+    </ul>
+
+    <p class="dlnote">링크를 누르면 Dropbox 미리보기가 열리고, 오른쪽 위 <b>다운로드</b> 버튼으로 파일을 받을 수 있습니다.
+      발표자 여러분이 공유에 동의해 주신 자료이므로 <b>외부 재배포는 삼가 주세요.</b></p>
   </section>
 
   <section class="reveal">
