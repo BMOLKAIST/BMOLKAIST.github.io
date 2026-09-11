@@ -86,6 +86,10 @@ grads:
     image: "hajin-kim.jpg"
     email: "hajingrace1224 at kaist.ac.kr"
     since: "Spring 2026"
+  - name: "Taejung Moon"
+    image: ""
+    email: "rmadka999 at kaist.ac.kr"
+    since: "Fall 2026"
 
 undergrads:
   - name: "Kyuree Kim"

@@ -45,7 +45,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 <div class="row">
 {% for m in site.data.members.postdocs %}
   <div class="col-md-3 col-6 bmol-person">
-    <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
+    {% if m.image and m.image != "" %}<img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">{% else %}<img src="{{ '/assets/img/team/placeholder.svg' | relative_url }}" alt="{{ m.name }}">{% endif %}
     <p class="name">{{ m.name }}</p>
     <p class="meta">{{ m.email }}</p>
     <p class="meta">Since {{ m.since }}</p>
@@ -58,7 +58,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 <div class="row">
 {% for m in site.data.members.grads %}
   <div class="col-md-3 col-6 bmol-person">
-    <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
+    {% if m.image and m.image != "" %}<img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">{% else %}<img src="{{ '/assets/img/team/placeholder.svg' | relative_url }}" alt="{{ m.name }}">{% endif %}
     <p class="name">{{ m.name }}</p>
     <p class="meta">{{ m.email }}</p>
     <p class="meta">Since {{ m.since }}</p>
@@ -71,7 +71,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 <div class="row">
 {% for m in site.data.members.undergrads %}
   <div class="col-md-3 col-6 bmol-person">
-    <img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">
+    {% if m.image and m.image != "" %}<img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">{% else %}<img src="{{ '/assets/img/team/placeholder.svg' | relative_url }}" alt="{{ m.name }}">{% endif %}
     <p class="name">{{ m.name }}</p>
     <p class="meta">{{ m.email }}</p>
   </div>
