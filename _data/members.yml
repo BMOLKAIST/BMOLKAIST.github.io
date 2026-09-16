@@ -110,6 +110,10 @@ undergrads:
   - name: "Hyunseo Han"
     image: "hyunseo-han.jpg"
     email: "hanemula at kaist.ac.kr"
+  - name: "Mamo Abel Demlie"
+    image: "mamo-abel-demlie.jpeg"
+    image_position: "center top"
+    email: "abelmamo at kaist.ac.kr"
 
 # --- Alumni (no photos; text listing with current position) ---
 alumni_research_prof:

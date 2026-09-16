@@ -71,7 +71,7 @@ description: Members of the Biomedical Optics Laboratory at KAIST.
 <div class="row">
 {% for m in site.data.members.undergrads %}
   <div class="col-md-3 col-6 bmol-person">
-    {% if m.image and m.image != "" %}<img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}">{% else %}<img src="{{ '/assets/img/team/placeholder.svg' | relative_url }}" alt="{{ m.name }}">{% endif %}
+    {% if m.image and m.image != "" %}<img src="{{ '/assets/img/team/' | append: m.image | relative_url }}" alt="{{ m.name }}"{% if m.image_position %} style="object-position: {{ m.image_position | escape }};"{% endif %}>{% else %}<img src="{{ '/assets/img/team/placeholder.svg' | relative_url }}" alt="{{ m.name }}">{% endif %}
     <p class="name">{{ m.name }}</p>
     <p class="meta">{{ m.email }}</p>
   </div>
