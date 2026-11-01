@@ -1,0 +1,11 @@
+{%- comment -%}Display initials without changing the source bibliography.{%- endcomment -%}
+{%- assign given_name = include.first | strip -%}
+{%- assign family_name = include.last | regex_replace: '[*∗†‡§¶‖&^]', '' | strip -%}
+{%- assign name_key = given_name | downcase | regex_replace: '[\s.\-]', '' -%}
+{%- if family_name == 'Park' -%}
+  {%- if name_key == 'yongkeun' or name_key == 'youngkeun' or name_key == 'yougkeun' or name_key == 'yk' -%}
+    {%- assign given_name = 'YK' -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign initials = given_name | replace: '.', '' | regex_replace: '(?<=\p{Ll})(?=\p{Lu})', ' ' | regex_replace: '(\p{L})\p{Ll}*', '\1. ' | regex_replace: '\s*-\s*', '-' | regex_replace: '\s+', ' ' | strip -%}
+{{- initials | upcase -}}
