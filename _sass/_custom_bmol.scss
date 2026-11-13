@@ -376,7 +376,7 @@ a {
   color: var(--global-text-color);
 }
 
-.publications #cho2026label .links a.btn[href^="https://spie.org/news/"] {
+.publications ol.bibliography li .links a.btn.publication-press-link {
   border-color: var(--global-theme-color);
 }
 

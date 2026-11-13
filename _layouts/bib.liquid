@@ -204,7 +204,9 @@
         <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Preprint</a>
       {% endif %}
       {% if entry.press %}
-        <a href="{{ entry.press }}" class="btn btn-sm z-depth-0" role="button">{{ entry.press_label | default: 'Press coverage' | escape }}</a>
+        <a href="{{ entry.press }}" class="btn btn-sm z-depth-0 publication-press-link" role="button">
+          {{- entry.press_label | default: 'Press coverage' | escape -}}
+        </a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
