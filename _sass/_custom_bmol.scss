@@ -376,6 +376,10 @@ a {
   color: var(--global-text-color);
 }
 
+.publications #cho2026label .links a.btn[href^="https://spie.org/news/"] {
+  border-color: var(--global-theme-color);
+}
+
 /* News: Bootstrap .table-dark keeps th/td near-white, but emphasis (strong/em)
    fell back to the muted body color (#d0d0d0) and read as "dark" against the
    white body text on the black canvas. Force all news text to pure white so the
